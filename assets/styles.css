@@ -3,8 +3,13 @@
 body{
     font-family: "QuickSand", sans-serif;
 }
+
 #product,#pricing,#register,#footer{
     padding: 4rem 0;
+}
+
+#product{
+    padding-top: 8rem;
 }
 video{
     max-width: 100%;
@@ -70,7 +75,7 @@ background-size: cover;
     background: rgba(18, 211, 60, 0.418);
     color: black;
 }
-/* mobile screen styles */
+/* mobile and tab screen styles */
 @media screen and (max-width: 576px) {
     .btn-success, .btn-success:hover {
         background: none;
@@ -85,6 +90,7 @@ background-size: cover;
      }
      
 }
+
 @media screen and (min-width: 576px)and (max-width: 768px ){
     video{
         width: 80%;
