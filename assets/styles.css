@@ -70,10 +70,27 @@ background-size: cover;
     background: rgba(18, 211, 60, 0.418);
     color: black;
 }
+/* mobile screen styles */
+@media screen and (max-width: 576px) {
+    .btn-success, .btn-success:hover {
+        background: none;
+        border: none;
+    }
+    .btn-success:active:focus{
+        box-shadow: none;
+    }
+    
+    .text-white{
+        color: gray !important;
+     }
+     
+}
 @media screen and (min-width: 576px)and (max-width: 768px ){
     video{
         width: 80%;
         margin: 0 auto;
     }
 }
-/* mobile screen styles */
+
+    
+    
