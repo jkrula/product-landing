@@ -24,22 +24,22 @@
 </head>
 <body>
     <header id='header'>
-            <nav id='nav-bar' class='navbar navbar-expand-md navbar-light bg-white'>
-                <div class="container">
-                <a class="navbar-brand me-5" href="#" ><img src="assets/img/logo/logomaker.png" class='img-fluid' alt="GreenBlock logo"></a>
+            <nav id='nav-bar' class='navbar navbar-expand-sm navbar-light bg-white'>
+                <div class="container-md">
+                <a class="navbar-brand me-5" href="#" ><img src="assets/img/logo/logomaker.png" id='header-img' class='img-fluid' alt="GreenBlock logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
                     aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse"id="menu">
-                    <ul class="navbar-nav mb-2 mb-lg-0 flex-grow-1 justify-content-end">
+                    <ul class="navbar-nav mb-2 mb-sm-0 flex-grow-1 justify-sm-content-end">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Product</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Pricing</a>
                         </li>
-                        <li class="nav-item ms-md-auto ">
+                        <li class="nav-item ms-sm-auto ">
                             <a class="nav-link btn btn-success text-white" href="#" role='button'>Register</a>
                         </li>
                     </ul>
@@ -47,6 +47,27 @@
                 </div>
             </nav>
     </header>
+
+    <!-- about -->
+    <section id="product" class='bg-light'>
+        <div class="container-md">
+        <div class='row'>
+            <div class="col-md-6" id='about'>
+                <h1 class="display-6">Green Blockchain Technology</h1>
+                <p class='text-justify'>GreenBlock is a leading tech company that develops sustainable and environment-friendly blockchain technology. We use
+                the latest technology in renewable energy to fundamentally change how the world produces blockchain based products and
+                services.</p>
+                </div>
+            <div class="d-lg-flex col-md-6" id='demo'>
+                    <video controls autoplay='false' id='video' class='d-block mx-sm-auto align-content-center' poster="assets/img/video2.webp">
+                        <source src="#" type="video/mp4">
+                        <p>Your browser doesn't support HTML5 video. Here is</p>
+                            
+                    </video>
+                </div>
+        </div>
+        </div>
+    </section>
     
     <!-- JavaScript Bundle with Popper -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
