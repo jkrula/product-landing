@@ -3,13 +3,22 @@
 body{
     font-family: "QuickSand", sans-serif;
 }
-#product{
+#product,#pricing{
     padding: 4rem 0;
 }
 video{
     max-width: 100%;
 }
-
+.options{
+    list-style-type: none;
+    padding: 0;
+}
+.options li{
+    margin-bottom: 0.4rem;
+}
+.options i{
+    margin-right: 0.4rem;
+}
 @media screen and (min-width: 576px)and (max-width: 768px ){
     video{
         width: 80%;
