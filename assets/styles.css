@@ -48,8 +48,27 @@ background-size: cover;
     font-weight: bold;
 }
 
-.btn{
+.btn, .card{
     border-radius:0;
+}
+
+.card-header{
+    border:none;
+    background:white;
+    font-weight: bold;
+}
+
+.card-footer{
+    background:white;
+    color: rgb(42, 184, 42);
+}
+
+.card-footer .btn:hover{
+    background: rgb(4, 71, 7);
+}
+.card.popular, .card.popular .card-header, .card.popular .card-footer{
+    background: rgba(18, 211, 60, 0.418);
+    color: black;
 }
 @media screen and (min-width: 576px)and (max-width: 768px ){
     video{
