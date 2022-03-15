@@ -3,7 +3,7 @@
 body{
     font-family: "QuickSand", sans-serif;
 }
-#product,#pricing,#register{
+#product,#pricing,#register,#footer{
     padding: 4rem 0;
 }
 video{
