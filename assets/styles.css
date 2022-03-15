@@ -27,6 +27,12 @@ video{
 .card-footer i{
     vertical-align: middle;
 }
+#register{
+background: linear-gradient(355deg, rgba(8, 237, 25, 1) 0%, rgba(109, 199, 154, 0.4) 63%)
+, #666 url(../shubham-dhage-2.jpg) center top no-repeat;
+background-size: cover;
+
+}
 
 @media screen and (min-width: 576px)and (max-width: 768px ){
     video{
