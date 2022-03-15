@@ -33,7 +33,20 @@ background: linear-gradient(355deg, rgba(8, 237, 25, 1) 0%, rgba(109, 199, 154, 
 background-size: cover;
 
 }
-
+.footer-title{
+    text-transform: uppercase;
+}
+.footer-text{
+    font-size: 0.9rem;
+}
+#footer a{
+    text-decoration: none;
+    border-bottom: 1px dotted gray;
+    color: black;
+}
+#footer a:hover{
+    font-weight: bold;
+}
 @media screen and (min-width: 576px)and (max-width: 768px ){
     video{
         width: 80%;
