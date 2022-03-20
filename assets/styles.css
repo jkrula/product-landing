@@ -85,7 +85,7 @@ background-size: cover;
         box-shadow: none;
     }
     
-    .text-white{
+    #header .text-white{
         color: gray !important;
      }
      
